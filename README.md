@@ -4,6 +4,8 @@ Here's a README file that explains the Flask chatbot project that integrates Lan
 ---
 
 # Flask Chatbot Project with LangGraph
+![image](https://github.com/user-attachments/assets/a04cb962-d0ba-4ba6-866c-126f44c72385)
+
 
 ## Overview
 
