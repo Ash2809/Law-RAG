@@ -1,8 +1,3 @@
-# Law-RAG
-Here's a README file that explains the Flask chatbot project that integrates LangGraph for RAG (Retrieval-Augmented Generation):
-
----
-
 # Flask Chatbot Project with LangGraph
 ![image](https://github.com/user-attachments/assets/a04cb962-d0ba-4ba6-866c-126f44c72385)
 
@@ -10,6 +5,9 @@ Here's a README file that explains the Flask chatbot project that integrates Lan
 ## Overview
 
 This project is a Flask-based chatbot application that uses advanced language model techniques to handle user queries. The chatbot is designed to route user questions to appropriate data sources, retrieve relevant information, and generate contextually accurate responses. The application leverages **LangGraph** for Retrieval-Augmented Generation (RAG), allowing for enhanced interactions based on the Indian Constitution documents.
+Heres the graph generated 
+![output](https://github.com/user-attachments/assets/d4fc2018-08fb-4ff6-b1a0-1401bd2bd833)
+
 
 ### Features
 
