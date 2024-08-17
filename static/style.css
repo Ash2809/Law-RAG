@@ -26,6 +26,12 @@ body, html {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.7);
 }
 
 /* Chat Body */
@@ -54,6 +60,7 @@ body, html {
     justify-content: space-between;
 }
 
+/* Card Footer */
 .card-footer {
     padding: 10px;
     border-radius: 0 0 15px 15px;
@@ -73,6 +80,11 @@ body, html {
     border-radius: 15px 0 0 15px;
     padding: 10px;
     width: 80%;
+    transition: background-color 0.3s ease;
+}
+
+.search:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .type_msg {
@@ -86,6 +98,7 @@ body, html {
 .attach_btn, .send_btn, .search_btn {
     padding: 15px;
     cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .send_btn {
@@ -93,9 +106,19 @@ body, html {
     background: linear-gradient(135deg, rgba(34, 195, 102, 1), rgba(25, 175, 85, 1));
 }
 
+.send_btn:hover {
+    background: rgba(34, 195, 102, 0.9);
+    box-shadow: 0px 5px 15px rgba(34, 195, 102, 0.5);
+}
+
 .attach_btn, .search_btn {
     border-radius: 15px;
     background: linear-gradient(135deg, rgba(0, 120, 255, 1), rgba(0, 98, 204, 1));
+}
+
+.attach_btn:hover, .search_btn:hover {
+    background-color: rgba(0, 120, 255, 0.8);
+    box-shadow: 0px 5px 15px rgba(0, 120, 255, 0.5);
 }
 
 /* Contacts */
@@ -113,6 +136,12 @@ body, html {
     border-radius: 10px;
     display: flex;
     align-items: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contacts li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.3);
 }
 
 .active {
@@ -187,6 +216,11 @@ body, html {
     max-width: 70%;
     word-wrap: break-word;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.msg_cotainer:hover, .msg_cotainer_send:hover {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .msg_cotainer {
